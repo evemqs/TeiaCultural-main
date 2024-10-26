@@ -1,0 +1,12 @@
+.imagem-inicio{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.como-funciona{
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+}
+
