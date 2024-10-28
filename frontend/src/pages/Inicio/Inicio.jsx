@@ -15,15 +15,18 @@ function Inicio() {
     <>
       <Navbar />
       <img src={Foto1} alt="Imagem-Inicio" className="imagem-inicio"/>
-      <h1>Descubra o melhor da cultura local em um só lugar!</h1>
-      <Button title="Explorar"/>
+
+      <div className="frase-efeito">
+        <h1>Descubra o melhor da cultura local<br/> em um só lugar!</h1>
+        <Button title="Explorar"/>
+      </div>
 
       
       <div className="como-funciona">
         <h2>Como funciona</h2>
-        <img src={Drop} alt="drop" />
-        
+        <img src={Drop} alt="drop" />   
       </div>
+
       <Section
         title="Divulgue"
         content="Divulgue seu trabalho e conecte-se com oportunidades e serviços, valorizando a cultura de Pernambuco!"

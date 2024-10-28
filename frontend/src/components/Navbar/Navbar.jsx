@@ -47,9 +47,9 @@ function LoggedInButtons({ onLogoutClick }) {
 function LoggedOutButtons({ onLoginClick }) {
   return (
     <>
-      <Button title="Cadastrar" onClick={() => {}} />
       <Button title="Acessibilidade" onClick={() => {}} />
       <Button title="Explorar" onClick={() => {}} />
+      <Button title="Cadastrar" onClick={() => {}} />
       <Button title="Entrar" onClick={onLoginClick} />
     </>
   );

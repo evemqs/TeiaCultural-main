@@ -3,11 +3,13 @@ header {
   position: fixed;
   top: 0; 
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  padding: 10px; 
+  padding: 10px 40px; 
+  background: linear-gradient(to bottom, #0C0900, #0c0900c5, #0c090000);
 }
 
 .container-buttons {
@@ -22,23 +24,29 @@ button {
   font-weight: 600;
   cursor: pointer;
   padding: 0.5rem 1rem;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .container-logo img{
-  padding: 1rem;
-  width: 5rem;
+  height: 68px;
+  width: 61px;
+}
+
+.container-buttons button:nth-child(-n+3) {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.container-buttons button:nth-child(-n+3):hover {
+  background-color: transparent;
+  color: #F57C00;
 }
 
 .container-buttons button:last-child {
-  background-color: #f57c00;
-  border-radius: 10px;
-  padding: 1rem;
+  background-color: #CC6700;
+  border-radius: 50px;
 }
 
-.container-buttons button {
-  background-color: transparent;
-}
 .container-buttons button:last-child:hover {
-  color: white;
+  background-color: #F57C00;
 }
